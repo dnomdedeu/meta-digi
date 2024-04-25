@@ -171,7 +171,7 @@ sign_uboot() {
 BOOT_TOOLS = "imx-boot-tools"
 BOOT_TOOLS:ccmp1 = "u-boot"
 FIP_UBOOT_HEADER = "ccmp15-dvk"
-FIP_UBOOT_HEADER:ccmp13 = "ccmp13-dvk"
+FIP_UBOOT_HEADER:ccmp13 = "ccmp13-msiotgw300"
 
 do_deploy:append:ccimx8m() {
 	# Deploy u-boot-nodtb.bin and ccimx8m[m|n]-dvk.dtb, to be packaged in boot binary by imx-boot

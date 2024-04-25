@@ -304,6 +304,8 @@ fi
 MACHINE="$(cat /proc/device-tree/compatible | tr '\0' '\t' | cut -f 1)"
 if grep -qs 'DVK' /proc/device-tree/model; then
 	BOARD_TYPE="DVK"
+elif grep -qs 'MSIOTGW' /proc/device-tree/model; then
+	BOARD_TYPE="MSIOTGW"
 else
 	BOARD_TYPE="SBC"
 fi

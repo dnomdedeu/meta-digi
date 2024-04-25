@@ -184,6 +184,7 @@ done<<-_EOF_
 	ccimx6ulrftest       dey-image-mft-module-rf
 	ccmp15-dvk           dey-image-qt,dey-image-crank,dey-image-webkit,dey-image-lvgl
 	ccmp13-dvk           core-image-base
+	ccmp13-msiotgw300    core-image-base
 	ccimx93-dvk          dey-image-qt,dey-image-lvgl
 _EOF_
 

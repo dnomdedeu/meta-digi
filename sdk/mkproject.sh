@@ -94,7 +94,7 @@ do_license() {
 		${MKP_SCRIPTPATH}/sources/meta-digi/meta-digi-arm/DIGI_EULA \
 		${MKP_SCRIPTPATH}/sources/meta-digi/meta-digi-arm/DIGI_OPEN_EULA \
 	"
-	if [ "${MKP_PLATFORM}" = "ccmp15-dvk" ] || [ "${MKP_PLATFORM}" = "ccmp13-dvk" ]; then
+	if [ "${MKP_PLATFORM}" = "ccmp15-dvk" ] || [ "${MKP_PLATFORM}" = "ccmp13-dvk" ] || [ "${MKP_PLATFORM}" = "ccmp13-msiotgw300" ]; then
 		local SOC_VENDOR="STM"
 		MKP_LICENSE_FILES=" \
 			${MKP_LICENSE_FILES} \
